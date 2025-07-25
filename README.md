@@ -33,6 +33,11 @@ O design é baseado em um componente de pré-visualização com foco em clareza,
 
 ## Screenshot 2
 
+<img width="1486" height="671" alt="image" src="https://github.com/user-attachments/assets/b02c4ec4-44c0-40e3-8999-c3ec54073f07" />
+
 ## Screenshot 3
+
+<img width="191" height="653" alt="image" src="https://github.com/user-attachments/assets/cd2b0f37-8ba5-4ed3-8ef5-d4139a8714de" />
+
 
 ## Acesse em:
