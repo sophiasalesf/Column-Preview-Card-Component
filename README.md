@@ -33,4 +33,6 @@ O design é baseado em um componente de pré-visualização com foco em clareza,
 
 ## Screenshot 2
 
+## Screenshot 3
+
 ## Acesse em:
