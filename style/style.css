@@ -14,7 +14,6 @@ body{
 
 .content{
     min-height: 700px;
-    /*width: 1500px;*/
     width: 1500px;
     border-radius: 15px;
     display: flex;
