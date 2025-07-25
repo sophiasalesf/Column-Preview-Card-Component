@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    min-height: 700px;
+    /*width: 1500px;*/
+    width: 1500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.sedans-card{
+    flex: 1;
+    background-color: #e28525;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.suvs-card{
+    flex: 1;
+    background-color: #016972;
+    display: flex;
+    flex-direction: column;
+}
+
+.luxury-card{
+    flex: 1;
+    background-color: #00403f;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sedans-icon{
+    width: 80px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.suvs-icon{
+    width: 80px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.luxury-icon{
+    width: 80px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.title-sedans{
+    color: #fdf2e3;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 55px;
+    margin-top: 55px;
+    margin-left: 70px;
+}
+
+.title-suvs{
+    color: #fdf2e3;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 55px;
+    margin-top: 55px;
+    margin-left: 70px;
+}
+
+.title-luxury{
+    color: #fdf2e3;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 55px;
+    margin-top: 55px;
+    margin-left: 70px;
+}
+
+.sedans-text{
+    color: #f7d9b2;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    width: 70%;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.suvs-text{
+    color: #9cdae0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    width: 70%;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.luxury-text{
+    color: #90bbbb;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    width: 70%;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.sedans-button{
+    background-color: #fdf2e3;
+    color: #e28525;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    height: 50px;
+    width: 42%;
+    margin-top: 130px;
+    margin-left: 70px;
+    border-radius: 50px;
+    border: none;
+}
+
+.suvs-button{
+    background-color: #fdf2e3;
+    color: #016972;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    height: 50px;
+    width: 42%;
+    margin-top: 100px;
+    margin-left: 70px;
+    border-radius: 50px;
+    border: none;
+}
+
+.luxury-button{
+    background-color: #fdf2e3;
+    color: #00403f;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    height: 50px;
+    width: 42%;
+    margin-top: 130px;
+    margin-left: 70px;
+    border-radius: 50px;
+    border: none;
+}
+
+.sedans-button:hover{
+    cursor: pointer;
+    background-color: #e28525;
+    color: #fdf2e3;
+    font-weight: normal;
+    border: 3px solid #fdf2e3;
+}
+
+.suvs-button:hover{
+    cursor: pointer;
+    background-color: #016972;
+    color: #fdf2e3;
+    font-weight: normal;
+    border: 3px solid #fdf2e3;
+}
+
+.luxury-button:hover{
+    cursor: pointer;
+    background-color: #00403f;
+    color: #fdf2e3;
+    font-weight: normal;
+    border: 3px solid #fdf2e3;
+}
+
+@media (max-width: 600px) {
+    body{
+        align-items: start;
+    }
+
+    .content {
+        flex-direction: column;
+        width: 85%;
+        margin-top: 30px;
+    }
+
+    .sedans-card{
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 15px;
+    }
+
+    .luxury-card{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .sedans-text{
+        width: 70%;
+    }
+
+    .suvs-text{
+        width: 70%;
+    }
+
+    .luxury-text{
+        width: 70%;
+    }
+
+    .sedans-button{
+        height: 70px;
+        margin-top: 10%;
+        margin-bottom: 17%;
+    }
+
+    .suvs-button{
+        height: 70px; 
+        margin-top: 10%;
+        margin-bottom: 17%;  
+    }
+
+    .luxury-button{
+        height: 70px;  
+        margin-top: 10%;
+        margin-bottom: 17%;   
+    }
+
+}
