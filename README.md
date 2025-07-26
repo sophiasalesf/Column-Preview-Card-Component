@@ -41,3 +41,5 @@ O design é baseado em um componente de pré-visualização com foco em clareza,
 
 
 ## Acesse em:
+
+https://sophiasalesf.github.io/Column-Preview-Card-Component/
